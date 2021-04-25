@@ -5,8 +5,7 @@ import ExpenseItem from './components/ExpenseItem.js'
 function App() {
   return (
     <div className="App">
-      <p>This is the mains screen</p>
-        <ExpenseItem></ExpenseItem>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
