@@ -5,7 +5,7 @@ import ExpenseItem from './components/ExpenseItem.js'
 function App() {
     const expenses = [
         {title: 'Car Insurance', amount: 294.67, date: new Date(2021, 6, 4).toISOString()},
-        {title: 'Housing Varios', amount: 315.67, date: new Date(2021, 4, 5).toISOString()},
+        {title: 'Housing Various', amount: 315.67, date: new Date(2021, 4, 5).toISOString()},
         {title: 'Rent', amount: 200.67, date: new Date(2021, 3, 6).toISOString()},
         {title: 'Travel', amount: 100.67, date: new Date(2021, 12, 4).toISOString()}
     ];
