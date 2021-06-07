@@ -2,11 +2,6 @@ import './ExpenseItem.css';
 
 const ExpenseItem = props => {
 
-    const expenseDate = new Date(2021,2,28);
-    const expenseTitle = 'Car Insurance';
-    const expenseAmount = 294.67
-
-
     return (
         <div className="expense-item">
             <div>{props.date}</div>
